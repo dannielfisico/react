@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edite o arquivo <code>src/App.js</code> e salve para visualizar.
+          Esta é a branch jogo da velha.
         </p>
         <a
           className="App-link"
