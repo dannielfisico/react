@@ -1,7 +1,9 @@
-import React from  'react'
+// import React from  'react'
 import ReactDOM from  'react-dom'
 
-const elementoHTML  = <h1>Estou aprendendo REACT</h1>
+import Primeiro from './Componentes/Primeiro'
 
-ReactDOM.render(elementoHTML, document.getElementById('root'))
+
+
+ReactDOM.render(<Primeiro />, document.getElementById('root'))
 
