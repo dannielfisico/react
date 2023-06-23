@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import FirstComponent from './components/FirstComponet';
+import SecondComponent from './components/SecondComponent';
+
 
 function App() {
   return (
@@ -9,7 +12,9 @@ function App() {
         <p>
           Esta é a branch learn.
         </p>
-        <a
+        <SecondComponent /> {/* Componente adicionando ao JSX*/}
+       
+         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
