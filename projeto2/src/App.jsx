@@ -19,8 +19,8 @@ function App() {
       time,
       done: false
     }
-    console.log(todo)
-    setTitle("")
+    console.log(todo),
+    setTitle(""),
     setTime("")
     
   }
@@ -36,14 +36,13 @@ function App() {
            <div className="form-control">
             <label htmlFor="title">O que você vai fazer?</label>
             <input type="text" name='title' placeholder='Título da tarefa' onChange={(e)=> {setTitle(e.target.value)}} value={title} required/>
-            
            </div>
            <div className="form-control">
             <label htmlFor="time">Duração:</label>
-            <input type="text" name='time' placeholder='Tempo estimado (em horas)' onChange={(e)=> {setTitle(e.target.value)}} value={time} required/>
-            
+            <input type="text" name='time' placeholder='Tempos estimado (em horas)' onChange={(e)=> {setTime(e.target.value)}} value={time} required/>
            </div>
-           <button type="submit">Criar Tarefa</button>
+           
+           <input type="submit" value="Criar Tarefa" />
         </form>
       </div>
       <div className="list-todo">
