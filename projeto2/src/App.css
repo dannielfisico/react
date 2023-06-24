@@ -1,5 +1,5 @@
 .App {
-    width: 60%;
+    width: 80%;
     margin: 2em auto;
     background-color: #394049;
     border-radius: 5px;
@@ -28,6 +28,29 @@
 .list-todo h2{
     text-align: center;
     margin-top: 0;
+}
+
+.list-todo{
+    padding: 0 1em;
+    margin: 1em 2em;
+}
+
+.list-todo h2 {
+    margin-bottom: 0;
+}
+
+.list-todo p{
+    text-align: center;
+
+}
+
+.todo h3{
+    margin-bottom: .5em;
+}
+
+.todo {
+    border-bottom: 1px solid #6d6d6d;
+    padding: 1em 0;
 }
 
 .form-control{
@@ -60,4 +83,27 @@ input[type="submit"]{
     padding: 1em;
     cursor: pointer;
 
+}
+
+.todo-done{
+    text-decoration: line-through;
+    color: #f16292;
+}
+
+.todo p {
+    text-align: left;
+    font-style: italic;
+    font-size: 0.7em;
+    margin-bottom: 1.5em;
+}
+
+.todo svg{
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-right: 1em;
+    transition: .5s;
+}
+
+.todo svg:hover{
+    color: #f16292;
 }
